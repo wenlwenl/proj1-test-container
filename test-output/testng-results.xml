@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Result = Apache2 Ubuntu Default Page: It works]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = Apache2 Ubuntu Default Page: It works]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-02T17:50:16 CET" name="Default suite" finished-at="2025-01-02T17:50:19 CET" duration-ms="3364">
+    <groups>
+    </groups>
+    <test started-at="2025-01-02T17:50:16 CET" name="Default test" finished-at="2025-01-02T17:50:19 CET" duration-ms="3364">
+      <class name="test.PhpWebTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:16 CET" name="beforeTest" finished-at="2025-01-02T17:50:19 CET" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:19 CET" name="pageTitleValidation" finished-at="2025-01-02T17:50:19 CET" duration-ms="46" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Apache2 Ubuntu Default Page: It works]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = Apache2 Ubuntu Default Page: It works]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:19 CET" name="afterTest" finished-at="2025-01-02T17:50:19 CET" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.PhpWebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
