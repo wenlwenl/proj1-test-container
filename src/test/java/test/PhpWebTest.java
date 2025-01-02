@@ -4,6 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -15,7 +16,7 @@ public class PhpWebTest {
     @BeforeTest
     public void beforeTest() {
         //open the browser and url
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.get("http://192.168.1.220:8011");
     }
     
