@@ -16,7 +16,7 @@ public class PhpWebTest {
 
     @BeforeTest
     public void beforeTest() {
-        //System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); // Run in headless mode
