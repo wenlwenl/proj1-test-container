@@ -27,7 +27,7 @@ public class PhpWebTest {
         options.addArguments("--window-size=1920,1080");
         
         //open the browser and url
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.get("http://192.168.1.220:8011");
     }
     
