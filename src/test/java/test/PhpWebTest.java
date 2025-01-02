@@ -16,7 +16,7 @@ public class PhpWebTest {
     @BeforeTest
     public void beforeTest() {
         //open the browser and url
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.get("http://192.168.1.220:8011");
     }
     
