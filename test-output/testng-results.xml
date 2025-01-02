@@ -8,16 +8,16 @@
       <![CDATA[Actual Result = Apache2 Ubuntu Default Page: It works]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-02T17:50:16 CET" name="Default suite" finished-at="2025-01-02T17:50:19 CET" duration-ms="3364">
+  <suite started-at="2025-01-02T20:51:13 CET" name="Default suite" finished-at="2025-01-02T20:51:16 CET" duration-ms="3372">
     <groups>
     </groups>
-    <test started-at="2025-01-02T17:50:16 CET" name="Default test" finished-at="2025-01-02T17:50:19 CET" duration-ms="3364">
+    <test started-at="2025-01-02T20:51:13 CET" name="Default test" finished-at="2025-01-02T20:51:16 CET" duration-ms="3372">
       <class name="test.PhpWebTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:16 CET" name="beforeTest" finished-at="2025-01-02T17:50:19 CET" duration-ms="3095" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T20:51:13 CET" name="beforeTest" finished-at="2025-01-02T20:51:16 CET" duration-ms="3132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="pageTitleValidation()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:19 CET" name="pageTitleValidation" finished-at="2025-01-02T17:50:19 CET" duration-ms="46" status="PASS">
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T20:51:16 CET" name="pageTitleValidation" finished-at="2025-01-02T20:51:16 CET" duration-ms="51" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result = Apache2 Ubuntu Default Page: It works]]>
@@ -27,7 +27,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- pageTitleValidation -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T17:50:19 CET" name="afterTest" finished-at="2025-01-02T17:50:19 CET" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.PhpWebTest@336f1079]" started-at="2025-01-02T20:51:16 CET" name="afterTest" finished-at="2025-01-02T20:51:16 CET" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

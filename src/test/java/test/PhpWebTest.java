@@ -16,13 +16,14 @@ public class PhpWebTest {
 
     @BeforeTest
     public void beforeTest() {
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); // Run in headless mode
         options.addArguments("--no-sandbox"); // Required for non-root users
         options.addArguments("--disable-dev-shm-usage"); // Prevents /dev/shm issues
         options.addArguments("--disable-gpu"); // Optional, useful for CI environments
+        options.addArguments("--remote-debugging-pipe");
         options.addArguments("--window-size=1920,1080");
         
         //open the browser and url
